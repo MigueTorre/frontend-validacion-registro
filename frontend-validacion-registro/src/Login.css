@@ -1,0 +1,83 @@
+/* Estilos generales para la página */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que ocupe toda la altura de la pantalla */
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    text-transform: uppercase; /* Título en mayúsculas */
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase; /* Los labels también en mayúsculas */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-transform: uppercase; /* Los valores ingresados estarán en mayúsculas */
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Estilos para posibles mensajes de error o ayuda (opcional) */
+  span.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+  }
+  
